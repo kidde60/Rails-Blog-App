@@ -7,3 +7,5 @@ class CreateComments < ActiveRecord::Migration[7.0]
     end
   end
 end
+
+Site:boards.greenhouse.io front end developer remote
