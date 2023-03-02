@@ -24,7 +24,7 @@ describe User, type: :model do
       Post.create(author: @user, title: 'Title', text: 'My sample text')
       Post.create(author: @user, title: 'Title', text: 'My sample text')
       Post.create(author: @user, title: 'Title', text: 'My sample text')
-      expect(@user.recent_posts.length).to eq 3
+      expect(@user.most_recent_posts.length).to eq 3
     end
   end
 end
