@@ -28,7 +28,7 @@ describe Post, type: :model do
       @comment = Comment.create(post: @post, author: @user, text: 'Awesome!')
       @comment = Comment.create(post: @post, author: @user, text: 'Awesome!')
       @comment = Comment.create(post: @post, author: @user, text: 'Awesome!')
-      expect(@post.recent_comments.length).to eq 3
+      expect(@post.most_recent_comments.length).to eq 3
     end
   end
 end
