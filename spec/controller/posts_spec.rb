@@ -13,7 +13,7 @@ RSpec.describe 'Posts', type: :request do
 
     it 'includes correct text' do
       get '/users/120/posts'
-      expect(response.body).to include('List of all posts by a user ')
+      expect(response.body).to include('List of all posts by a user')
     end
   end
 
