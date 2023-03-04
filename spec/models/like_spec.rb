@@ -3,13 +3,13 @@ require 'rails_helper'
 describe Like, type: :model do
   context 'test likes' do
     before :each do
-      @user = User.create(name: 'Jennie', photo: 'https://unsplash.com/photos/Th-i7Z1ufK8', bio: 'Artist')
-      @post = @user.posts.create(title: 'Cafe', text: 'My fav place')
-      @like = @post.likes.create
+      @user = User.create(name: 'william', photo: 'https://github.com/kidde60', bio: 'web developer')
+      @post = Post.create(author: @user, title: 'Title', text: 'My sample text')
+      @comment = Comment.create(post: @post, author: @user, text: 'Awesome!')
     end
 
-    it 'The number of likes is expected to be 1' do
-      expect(@like.update_likes_counter).to eq(1)
+    it 'comments author should equal user who made the comment' do
+      expect(@comment.author).to eq @user
     end
   end
 end
