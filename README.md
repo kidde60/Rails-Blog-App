@@ -91,7 +91,7 @@ NB: You need to create an `env` file for your database credentials
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Wassim Chakib**
+👤 **George William Kidde**
 
 - GitHub: [@George William Kidde](https://github.com/kidde60)
 - Twitter: [@professorKGW](https://twitter.com/professorKGW)
