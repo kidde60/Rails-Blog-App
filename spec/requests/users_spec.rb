@@ -10,6 +10,11 @@ RSpec.describe 'Users', type: :request do
       get '/'
       expect(response.status).to eql(200)
     end
+    
+    it 'renders correct template' do
+      get '/'
+      expect(response).to render_template(:index)
+    end
 
     it 'includes correct text' do
       get '/'

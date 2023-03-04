@@ -11,6 +11,11 @@ RSpec.describe 'Posts', type: :request do
       expect(response.status).to eql(200)
     end
 
+    it 'renders correct template' do
+      get '/users/120/posts'
+      expect(response).to render_template(:index)
+    end
+
     it 'includes correct text' do
       get '/users/120/posts'
       expect(response.body).to include('List of all posts by a user')
