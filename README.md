@@ -1,14 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -35,120 +26,84 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BLOG APP WITH ROR <a name="about-project"></a>
+# 📖 Blog App <a name="about-project"></a>
 
-This project creates a blog-app website.A fully functional website that will show the list of post and users can interact by adding comments and liking posts. This milestone sets up our models with Users, Posts, Comments, and Likes table.
+A project where we create a blog app using MVC and Rails
 
 ## 🛠 Built With <a name="built-with"></a>
 
--ROR
-
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Language</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://rubyonrails.org/">Rails</a></li>
+    <li><a href="https://www.postgresql.org/">Postgresql</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
+### Key Features <a name="key-features"></a>
+
+- **Add Comments**
+- **Add a post**
+- **Like a post**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get a local copy up and running, follow these steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-Ruby version : ruby 3.1.2p20 run ruby -v
-Ruby SQLite3 : 3.40.0 run sqlite3 --version
-npm version : 8.15.0 run npm -v
-yarn version : 1.22.19 run yarn -v
-Database : PostgreSQL
+- Install ruby on your computer or run it with docker
+- Have rails installed on your computer
 
 ### Setup
 
-Clone this repository to your desired folder:
-```sh
-  cd my-folder
-  git clone https://github.com/kidde60/blog-app.git
-```
--
+Clone this repository by using the command line :
+
+- `git clone https://github.com/kidde60/Rails-Blog-App.git`
 
 ### Install
 
 Install this project with:
 
-- bundler install
-
-```sh
-
+`bundle install`
 
 ### Usage
 
 To run the project, execute the following command:
 
+`rails s`
 
-Example command:
-
-```sh
-  rails server
-```
--
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+NB: You need to create an `env` file for your database credentials
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-👤**George William Kidde**
+## 👥 Authors <a name="authors"></a>
+
+👤 **Wassim Chakib**
 
 - GitHub: [@George William Kidde](https://github.com/kidde60)
+- Twitter: [@professorKGW](https://twitter.com/professorKGW)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/george-william-kidde/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Delete Post**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,9 +121,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project by staring it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,18 +129,14 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse for the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
