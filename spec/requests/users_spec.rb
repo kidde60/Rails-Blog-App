@@ -11,6 +11,11 @@ RSpec.describe 'Users', type: :request do
       expect(response.status).to eql(200)
     end
 
+    it 'renders correct template' do
+      get '/'
+      expect(response).to render_template(:index)
+    end
+
     it 'includes correct text' do
       get '/'
       expect(response.body).to include('List of all users')
