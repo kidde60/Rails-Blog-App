@@ -1,0 +1,21 @@
+body {
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(10, 88, 189);
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  margin: 20px 0;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px 20px;
+}
+
+.posts-counter {
+  color: #000;
+}
