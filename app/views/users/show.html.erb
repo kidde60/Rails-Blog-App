@@ -6,10 +6,20 @@
     </div>
     <div class="user-posts">
     <% @user.most_recent_posts.each do |post| %>
-        <%= link_to user_post_path(user_id:@user.id, id: post.id) do%>
+        <%= link_to user_post_path(author_id:@user.id, id: post.id) do%>
       <%= render "shared/posts_details", post: post %>
         <%end%>
     <%end%>
     </div>
-    <button><%= link_to 'See all posts', user_posts_path(@user)%></button>
+    <% if @current_user %>
+<a href="/users/<%= @user.id %>/posts/new">
+<button class="posts-btn">
+        Add new post
+</button></a>
+<% end %>
+
+<a href="/users/<%= @user.id %>/posts">
+<button class="posts-btn">
+        See all posts
+</button></a>
 </div>

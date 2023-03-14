@@ -1,7 +1,7 @@
 <div class="posts">
  <%= render "shared/details", user: @user %>
   <div>
-   <% @posts.each_with_index do |post| %>
+   <% @user.most_recent_posts.each do |post| %>
      <%= link_to user_post_path(user_id:@user.id, id: post.id) do%>
        <%= render "shared/posts_details", post: post %>
         <div class="comments">
