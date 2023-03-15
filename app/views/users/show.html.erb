@@ -6,7 +6,7 @@
     </div>
     <div class="user-posts">
     <% @user.most_recent_posts.each do |post| %>
-        <%= link_to user_post_path(author_id:@user.id, id: post.id) do%>
+        <%= link_to user_post_path(@user) do%>
       <%= render "shared/posts_details", post: post %>
         <%end%>
     <%end%>
