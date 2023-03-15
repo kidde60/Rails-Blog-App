@@ -15,7 +15,9 @@ a {
   padding: 10px 20px;
 }
 
-.posts-counter, .like-and-comment p, .post_header p{
+.posts-counter,
+.like-and-comment p,
+.post_header p {
   color: #c31c1c;
   float: right;
   padding: 10px;
@@ -27,7 +29,7 @@ a {
   padding: 20px;
 }
 
-.photo{
+.photo {
   width: 20%;
 }
 

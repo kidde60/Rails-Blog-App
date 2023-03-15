@@ -3,11 +3,11 @@ require 'rails_helper'
 RSpec.describe 'Post index details page', type: :system do
   subject do
     @user = User.create(
-        name: 'William',
-        posts_counter: 3,
-        bio: 'Web developer',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCKAAjmfrQ3AVA4NKGkhBtYMPfAoDHDhb3pgU6MJhW5Q&s'
-      )
+      name: 'William',
+      posts_counter: 3,
+      bio: 'Web developer',
+      photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCKAAjmfrQ3AVA4NKGkhBtYMPfAoDHDhb3pgU6MJhW5Q&s'
+    )
 
     @post1 = Post.create(
       author: @user,
