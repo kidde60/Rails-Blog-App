@@ -6,9 +6,10 @@ Rails.application.routes.draw do
     #     end
     #   end  
     #   root "users#index"
-    root to: "users#index"
+    root "users#index"
     # will match a GET request to the given URL and send it to the show action in the UsersController.
     get 'users/:id' => 'users#show', as: "user"
+    get 'users' => 'users#index', as: "users"
     
     # will match a GET/POST request to the given URL and send it to the corresponding action in the PostsController.
     get 'users/:user_id/posts/new' => 'posts#new', as: "post_new"
