@@ -12,10 +12,66 @@ a {
   gap: 50px;
   margin: 20px 0;
   align-items: center;
-  border: 2px solid black;
   padding: 10px 20px;
 }
 
-.posts-counter {
-  color: #000;
+.posts-counter, .like-and-comment p, .post_header p{
+  color: #c31c1c;
+  float: right;
+  padding: 10px;
+}
+
+.details {
+  width: 75%;
+  border: 2px solid rgb(51, 51, 51);
+  padding: 20px;
+}
+
+.photo{
+  width: 20%;
+}
+
+.full_post {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.post_body,
+.post-comments {
+  border: 2px solid rgb(48, 48, 48);
+  padding: 10px;
+}
+
+.post_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(54, 52, 52);
+  gap: 2px;
+  padding: 10px;
+}
+
+/* .like-and-comment p {
+  float: right;
+  padding: 10px;
+} */
+
+.all_posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comments {
+  border: 2px solid rgb(52, 50, 50);
+}
+
+.pagination {
+  margin-top: 15px;
+  margin-left: 30%;
 }
