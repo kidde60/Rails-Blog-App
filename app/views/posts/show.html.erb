@@ -1,7 +1,7 @@
 <div class="full_post">
   <div class="post_body">
     <div class="post_header">
-    <h4>Post by: <%= @post.author.name %></h4>
+    <h4><%= @post.title %> by: <%= @post.author.name %></h4>
     <p>
       Comments: <%= @post.comments_counter %> 
       Likes: <%= @post.likes_counter %>
