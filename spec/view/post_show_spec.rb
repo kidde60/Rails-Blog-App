@@ -31,13 +31,6 @@ RSpec.describe 'Post index details page', type: :system do
       comments_counter: 1,
       likes_counter: 2
     )
-    # @post4 = Post.create(
-    #   author: @user,
-    #   title: 'Sample post',
-    #   text: 'posts example or sample body',
-    #   comments_counter: 1,
-    #   likes_counter: 2
-    # )
 
     @comment = Comment.create(
       post: @post3,
