@@ -58,11 +58,6 @@ a {
   padding: 10px;
 }
 
-/* .like-and-comment p {
-  float: right;
-  padding: 10px;
-} */
-
 .all_posts {
   display: flex;
   flex-direction: column;
@@ -76,4 +71,33 @@ a {
 .pagination {
   margin-top: 15px;
   margin-left: 30%;
+}
+
+.sign-up-container,
+.log-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(6, 5, 5);
+}
+
+.new_user {
+  width: 100%;
+}
+
+.actions,
+.notice,
+.alert,
+.button_to,
+.field {
+  text-align: center;
+}
+
+.field input {
+  width: 80%;
+  font-size: 16px;
+}
+
+#user_remember_me {
+  width: 10px;
 }
