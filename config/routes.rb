@@ -1,12 +1,5 @@
 Rails.application.routes.draw do
   devise_for :users
-    # resources :users do
-    #     resources :posts do
-    #     resources :likes
-    #    resources :comments
-    #     end
-    #   end  
-    #   root "users#index"
     root "users#index"
     # will match a GET request to the given URL and send it to the show action in the UsersController.
     get 'users/:id' => 'users#show', as: "user"
