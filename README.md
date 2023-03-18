@@ -28,7 +28,7 @@
 
 # 📖 Blog App <a name="about-project"></a>
 
-A project where we create a blog app using MVC and Rails
+A project where we create a blog app using MVC and Rails. It shows the list of posts and empower readers to interact with them by adding comments and liking posts. In this project we added authorization and API endpoints for posts and comments.
 
 ## 🛠 Built With <a name="built-with"></a>
 
